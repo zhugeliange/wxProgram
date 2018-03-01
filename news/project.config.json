@@ -1,0 +1,16 @@
+{
+	"client": "./client",
+	"svr": "./server",
+	"miniprogramRoot": "./client",
+	"qcloudRoot": "./server",
+	"setting": {
+		"newFeature": true,
+    "es6": true,
+		"postcss": true,
+		"minified": true,
+		"urlCheck": true
+	},
+	"appid": "wx97aa8536ff0d1d94",
+	"projectname": "新闻头条",
+	"condition": {}
+}

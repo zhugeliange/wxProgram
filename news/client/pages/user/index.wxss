@@ -1,0 +1,35 @@
+.container 
+{
+	margin: 0;
+	padding: 5rpx;
+}
+
+image
+{
+	width: 300rpx;
+	height: 300rpx;
+	margin: 5rpx auto;
+	padding: 0;
+	border: 0;
+	border-radius: 50%;
+}
+
+.description
+{
+	width: 100%;
+	margin: 30rpx;
+}
+
+icon
+{
+	width: 20%;
+	text-align: center;
+	float: left;
+}
+
+text
+{
+	width: 70%;
+	margin-top: 5rpx;
+	text-align: left;
+}

@@ -1,0 +1,7 @@
+<!--user.wxml-->
+<view class='container' wx:if="{{logged}}">
+	<image src="{{head}}"></image>
+	<view class='description' wx:for="{{userInfo}}">
+		<icon type="info" color="{{blue}}"/><text space='nbsp'>{{item}}</text>
+	</view>
+</view>

@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "新闻头条",
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": "true",
+    "onReachBottomDistance": "50"
+  },
+	"tabBar": {
+		"color": "#888888",
+		"selectedColor": "#09BB07",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath":"pages/index/index",
+				"text":"头条",
+				"iconPath": "images/index_disable.png",
+				"selectedIconPath":"images/index_enable.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "images/user_disable.png",
+				"selectedIconPath": "images/user_enable.png"
+			}
+		],
+		"position": "bottom"
+	}
+}

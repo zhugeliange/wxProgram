@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="flex-wrp" wx:if="{{logged}}">
+	<view class="flex-item" wx:for="{{news}}">
+	<image mode="aspectFit" src="{{item.thumbnail_pic_s}}" lazy-load='true'></image>
+	<text>{{item.title}}</text>
+	</view>
+</view>
